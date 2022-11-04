@@ -114,6 +114,6 @@ function resolver() {
             break;
     }
     resetear();
-    let a = "El resultado es "+res;
-    resultado.textContent = a;
+    
+    resultado.textContent = "El resultado es "+ res;
 }
