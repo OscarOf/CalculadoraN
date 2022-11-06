@@ -1,6 +1,6 @@
 .calculadora{
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto;
     grid-template-rows: auto auto;
     margin:0 auto;
     padding:20px;
@@ -30,6 +30,12 @@
     background-color:#fff;
     border-radius: 25px;    
   }
+  .numeros{
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    column-gap: 0px;
+    
+}
 
   .circulo{
     width: 700px;

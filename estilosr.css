@@ -1,8 +1,45 @@
 @media(max-width:320px) { 
-
     body{
-      display: none;
+        width: 100%;
     }
-    
+
+    .calculadora{
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+      padding:20px;
+      background-color:#2980b9;
+      width: 300px;
+      border-radius: 25px;
+    }
+
+    .numeros{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-top: -400px;
+    }
+
+    #resultado{
+        width: 280px;
+        font-size: 1.5em;
+    }
+
+    .nume{
+        margin-left: 0px;
+    }
+
+    .circulo{
+        width: 200px;
+        height: 200px;
+        margin-top: 420px;
+        margin-left: 50px;
+    }
+
+    h2{
+        position: absolute;
+        margin-left: 25px;
+        margin-top: 70px;
+        font-size: 1.5em;
+    }
     
   } 
