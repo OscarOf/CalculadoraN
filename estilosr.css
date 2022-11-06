@@ -4,19 +4,5 @@
       display: none;
     }
     
-    .calculadora{
-      display: none;
-      grid-template-columns: auto;
-      grid-template-rows: auto auto;
-      padding:20px;
-      background-color:#2980b9;
-      width: 320px;
-      height: 100%;
-      border-radius: 25px;
-    }
-
-    .circulo{
-      display: none;
-    }
     
   } 
