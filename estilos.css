@@ -1,59 +1,66 @@
-.calculadora{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    margin:0 auto;
-    padding:20px;
-    background-color:#2980b9;
-    width: 90%;
-    height: 900px;
-    border-radius: 25px;
-  }
-  .calculadora button{
-    width:70px;
-    height: 70px;
-    font-size: 25px;
-  }
+.calculadora {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2980b9;
+  width: 90%;
+  height: 900px;
+  border-radius: 25px;
+}
 
-  button{
-    background-color: green;
-  }
+.calculadora button {
+  width: 70px;
+  height: 70px;
+  font-size: 25px;
+}
 
-  #resultado{
-    display:block;
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 50px;
-    width:80%;
-    height: 100px;
-    line-height: 100px;
-    background-color:#fff;
-    border-radius: 25px;    
-  }
-  .numeros{
-    display: grid;
-    grid-template-columns: 70px 70px 70px 70px;
-    column-gap: 0px;
-    position: absolute;
-    margin-left: 1400px;
+button {
+  background-color: green;
+}
+
+#resultado {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  width: 80%;
+  height: 100px;
+  line-height: 100px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.numeros {
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px;
+  column-gap: 0px;
+  position: absolute;
+  margin-left: 1400px;
 
 }
 
-  .circulo{
-    width: 700px;
-    height: 700px;
-    border-radius: 500px;
-    background-color: black;
-    position: absolute;
-    margin-top: 120px;
-    margin-left: 300px;
-    color: #fff;
-  }
+.circulo {
+  width: 700px;
+  height: 700px;
+  border-radius: 500px;
+  background-color: black;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 300px;
+  color: #fff;
+}
 
-  h2{
-    position: absolute; 
-    margin-left: 208px; 
-    margin-top: 300px; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    font-size: 3em;
-  }
+.clik:checked+.calculadora {
+  background-color: black;
+  transition: 1s;
+}
+
+h2 {
+  position: absolute;
+  margin-left: 208px;
+  margin-top: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3em;
+}
