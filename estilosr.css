@@ -17,6 +17,9 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
         margin-top: -400px;
+        margin-left: 0px;
+        position: relative;
+       
     }
 
     #resultado{
